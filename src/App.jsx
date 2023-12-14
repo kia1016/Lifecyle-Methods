@@ -33,7 +33,6 @@ class App extends Component {
         onChange={(event) => this.setState({text: event.target.value})}
         />
         <button type="submit">Add</button>
-        
         </form>
         <ul>
           {this.state.list.map((item, index) => {
